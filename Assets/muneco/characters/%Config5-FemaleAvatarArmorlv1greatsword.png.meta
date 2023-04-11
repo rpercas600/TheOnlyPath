@@ -1,0 +1,2555 @@
+fileFormatVersion: 2
+guid: e3f0f95507c42e0488b502fb9996483b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_0'
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1471
+        width: 102
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d641f00c4643f24591f39fe1a40eff7
+      internalID: -1015412003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_1'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1471
+        width: 96
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7aa37760c999c41952b3e7073ffa1c
+      internalID: -1170598310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_2'
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1473
+        width: 97
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1d49858d26e7c4b9a0e696a69e572b
+      internalID: -1335324981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_3'
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1475
+        width: 99
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b317502ce0d07044f90419e10a895d73
+      internalID: -233053286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_4'
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1475
+        width: 103
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b437ea32514441a89132ea0b5ddbb
+      internalID: 1229278888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_5'
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1473
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045ab49ba0de4d4183f905d86ec5b38
+      internalID: -1787446925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_6'
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1471
+        width: 97
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a9e29448e02f4b94bbef1ada68706
+      internalID: 1390519903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_7'
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1471
+        width: 102
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441a017fb8fdb1449ff56c25ba076ee
+      internalID: -627572456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_8'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1471
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0f07e2875dc6a4db5c22a12a5837e2
+      internalID: 1555347545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_9'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1471
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e899734f0b3dff4290c34a7098ffacd
+      internalID: 62983917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_10'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1471
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0accaf9aee575a94588a1e030e878488
+      internalID: 647238711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_11'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1307
+        width: 99
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8397d2a74c1c547a39e81261153530
+      internalID: -1482582350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_12'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1307
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810d5173149f4a94da9f10c19ec83726
+      internalID: 752430721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_13'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1307
+        width: 97
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be52f6f429ccd948a5ed5841172e8ab
+      internalID: -495217502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_14'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1307
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74db52f7aa1754b4e854771f7c18905e
+      internalID: 2059159568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_15'
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1307
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31676d6a3f2d5104abd4be7b3576d498
+      internalID: 2126386917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_16'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1307
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0333057f436752046be61b38c7ea8bf5
+      internalID: 1514270886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_17'
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1307
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f294eac09c87014c81476553f2bca96
+      internalID: 1263193118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_18'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1307
+        width: 96
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3a93c8aaf6afb4ca656db72a578ed6
+      internalID: 958843101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_19'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1307
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8dc95cdd7c00b45a5ec27978e00989
+      internalID: 74809791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_20'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1307
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797dedba030313643b99137fe403cd3f
+      internalID: 1887530546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_21'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1307
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872d4d6b073971c418da0c84f79d6ce9
+      internalID: -509862454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_22'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1144
+        width: 98
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20405c46da90114da14a06ac99a2009
+      internalID: 748445215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_23'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1144
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b81297808d7404497f00ab4275f554
+      internalID: 1015118984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_24'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1144
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c23f8d665d93f438f12277725afb2b
+      internalID: -744410891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_25'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1144
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82268d0ba6570b49aec5bb1c9a6e210
+      internalID: -300125940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_26'
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1144
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb1ca8136017de44a0c28de552213e8
+      internalID: -1163403368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_27'
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1144
+        width: 107
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4618181b2e2ff94eba496200513bd5a
+      internalID: -711500737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_28'
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1144
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9468e5d2cf8644f946b08cd756ffc2
+      internalID: -2068205648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_29'
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1144
+        width: 103
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6faee74906b6f44ab0a05d980163a6
+      internalID: -1106973767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_30'
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1144
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1233f46df80d5224caeebef8ff57fa95
+      internalID: -1187292575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_31'
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1144
+        width: 106
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b704b153863e824791fb5a1b7c7196d
+      internalID: -993572794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_32'
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1144
+        width: 105
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e5fb279081304cb7503fb4eaf8885
+      internalID: 436927441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_33'
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 980
+        width: 108
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8942aec8e42ea4ab00bfba0faa9bc4
+      internalID: -104129352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_34'
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 980
+        width: 107
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b922a83204c848881d936a9ca3e4c
+      internalID: -20165290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_35'
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 980
+        width: 108
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30604a16152ed9b4d98de3f187fa86da
+      internalID: 1837022847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_36'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 980
+        width: 106
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04206800d2719244894a8456ebae9dc
+      internalID: -221530959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_37'
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 980
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de169a4fc04dab04f86d9559b6512a74
+      internalID: -2004579811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_38'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 980
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a427a675c42b774ba659b1931e22dae
+      internalID: 1905819921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_39'
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 980
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e4d561d30cfdd41a4fc3d083cd780e
+      internalID: 640205873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_40'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 980
+        width: 96
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022e44e0f0953464299aa1c905cccbb3
+      internalID: -1404802579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_41'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 980
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3427cc34a7079142beba1178c8e51bf
+      internalID: -1720873471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_42'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 980
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3b5059a405afc4f90b9c6bda801f49
+      internalID: -757377575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_43'
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 980
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14427e2923fc142a026aee09091669
+      internalID: 1587527855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_44'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 817
+        width: 98
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58fa8f624c53a47a38e79126790043
+      internalID: 352399814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_45'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 817
+        width: 99
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0974838d3489cd43981ceea0d76de8a
+      internalID: -2072698896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_46'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 817
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0418837f8fc64bbd92139f5dd9447
+      internalID: -1104461103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_47'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 817
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4d587be15cd354e9f4b288a5d5a2b2
+      internalID: -1286346066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_48'
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 817
+        width: 101
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea98eab3181e8dc468a7c054d2261ffe
+      internalID: 350443044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_49'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 817
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b987b2248441f024b9a9fcaf59a64be9
+      internalID: -1955352091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_50'
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 817
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8e6ce932a1fc4689425b04d01acfd
+      internalID: -1869741816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_51'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 817
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab62b6ce8f262c2439c8e5f53521645a
+      internalID: 962999438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_52'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 817
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc01ffdda637bd4eaeb5a0f678e3b75
+      internalID: 265966174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_53'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 817
+        width: 97
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa9dad0c1953094ab52b0fcb68cfbe2
+      internalID: -1856218799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_54'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 817
+        width: 98
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca9ecf389e059243bfc77620817bc5d
+      internalID: -1837776997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_55'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 653
+        width: 98
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e1e10786175ab4a9228c056b980919
+      internalID: -1324274347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_56'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 653
+        width: 99
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a036145223df33446b15e021920e8ca8
+      internalID: -763649369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_57'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 653
+        width: 97
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252adf535573524691625a17c236daa
+      internalID: 1520650413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_58'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 653
+        width: 97
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4250ece1cf6c0d44ea203468d8e8f450
+      internalID: -70344221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_59'
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 653
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4e555bcc01394cb934aa09ac865fd
+      internalID: -739187061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_60'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 653
+        width: 101
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c26b073d4e5fa04ba92905670f43a77
+      internalID: -1753924985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_61'
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 653
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0222a15288efe9b45a3dd569e4f3eba6
+      internalID: -1236056313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_62'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 653
+        width: 96
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6c95b48123a35479f21ea5c6283c20
+      internalID: 1865479173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_63'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 653
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ef7df97c9f40d41a84b52cb72ac310
+      internalID: 622371740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_64'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 653
+        width: 97
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53505341763d81458ab2b5e6814122b
+      internalID: -1026247056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_65'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 653
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613937b62f666a749a8e43bf6525c67a
+      internalID: -2138162809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_66'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 490
+        width: 98
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f607d8883e4556489db6f623691bbf5
+      internalID: 448038715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_67'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 490
+        width: 97
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4724bf77df3a354ca85f3a656de5eed
+      internalID: -864479257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_68'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 490
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488573db5387ad4489bc48aceecded8f
+      internalID: -863688961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_69'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 490
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accb04ed3dc967a4caa57d9f8e692bb8
+      internalID: -1252166443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_70'
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 490
+        width: 106
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa33c5d4c702f204b8311132e960634d
+      internalID: 103366775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_71'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 490
+        width: 97
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb50d94800228a140b2dcca62bd36495
+      internalID: -1630777643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_72'
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 490
+        width: 101
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db0c30f0d6b994fb5e272a2e6aa7a1
+      internalID: -56477260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_73'
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 490
+        width: 106
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d796cfc73f163d43be946cdd0563828
+      internalID: -135108912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_74'
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 490
+        width: 111
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c570e5bf64b0744815b690d1d5c2ce
+      internalID: 1923846602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_75'
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 490
+        width: 116
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd46f675b92b3149920a33239ddf8c3
+      internalID: -337851206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_76'
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 490
+        width: 116
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391456078e8bc2744bc0210e69ab34d8
+      internalID: 699481197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_77'
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 326
+        width: 117
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5219d1a932ef48962b8fb85cc9e25
+      internalID: -580954146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_78'
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 326
+        width: 111
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005c72adfb84a8c4d97f1a5d67027900
+      internalID: -1895166048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_79'
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 326
+        width: 107
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c32feb315de6e4aaf036c0831d1825
+      internalID: -965224147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_80'
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 326
+        width: 108
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2c87e88f0adc44189ff464ab5f3aab
+      internalID: -2093227103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_81'
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 326
+        width: 106
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5625a1691ca1bc40ba67f32eb6aaa47
+      internalID: 709303565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_82'
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 326
+        width: 101
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4fa5f225033c24b8c9bfe475f3cf55
+      internalID: -79846908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_83'
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 326
+        width: 106
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8af8ae45e7b8f4494c95f96af1185b
+      internalID: -1448329513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_84'
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 326
+        width: 109
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb0abb5695bf36449818edc081f9a2d
+      internalID: -980182829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_85'
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 326
+        width: 112
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f48b864a6945ab49aae438e1165eb26
+      internalID: 601951460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_86'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 326
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7b5a0a530dd1e4e96c50c7a0238287
+      internalID: -170765828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_87'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 326
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689864f99e84f0440a542762fdf78db0
+      internalID: 723039040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_88'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 163
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0aeaa617e5ea40a50652331384b0f
+      internalID: 1112237295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_89'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 163
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02437c2931f188c43bbf800b6443da75
+      internalID: -887961710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_90'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 163
+        width: 97
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfbe6393130e244592cdc73f60c4638
+      internalID: -565542562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_91'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 163
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678abb31857eff04fa94cb7513dce807
+      internalID: 955310972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_92'
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 163
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6198da025b18248a1ed3eaaeff1393
+      internalID: -1464203362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_93'
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 163
+        width: 103
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925c862fa81ef9a47b0b3556fbc3cbe5
+      internalID: -1094272021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_94'
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 163
+        width: 99
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad2d339e69d0914bbdc30ea7c4a6e7c
+      internalID: 1174329189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_95'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 163
+        width: 96
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c6025090835a042930f02f0bc009c3
+      internalID: 823766035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_96'
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 163
+        width: 104
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b17e4af9c547140b37ddfa2a08617a
+      internalID: 720826871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_97'
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 163
+        width: 102
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fb3a6e77dce548abbcbca4accb7e2
+      internalID: -1991944855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_98'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 163
+        width: 101
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93054f6c7d3b364e836975e2ca097f5
+      internalID: 949749771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_99'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 106
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652085838d4328144aa6c163425c5306
+      internalID: 2084957510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_100'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 106
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb181f61d5bc54093957ff391f96c7
+      internalID: -772886092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_101'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 107
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e66af5af523e2040a496e27ca229d31
+      internalID: 1485349851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_102'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 99
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c9c2fc376414145800a9297a02e1a6
+      internalID: -85753866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_103'
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 0
+        width: 97
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e819f8349960d9c4291e8d0c3b987204
+      internalID: 2088482062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_104'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5957f1bd899a0204c87141185381252d
+      internalID: -990492656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_105'
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2ef024d9f212f45bfa237616324155
+      internalID: -977448982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_106'
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 0
+        width: 96
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5035a6678f18842b3fc3dd81e9d91d
+      internalID: 635697414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_107'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 0
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae39644e0c269944b6b948c51bad8bd
+      internalID: 1191177150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_108'
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 0
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11381a37ae8fac449e3d2a56435bfd1
+      internalID: -604146086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%Config5-FemaleAvatarArmorlv1greatsword_109'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 0
+        width: 98
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe57b783f7bca44f8343721ea5e94b0
+      internalID: -1709693761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      '%Config5-FemaleAvatarArmorlv1greatsword_0': -1015412003
+      '%Config5-FemaleAvatarArmorlv1greatsword_1': -1170598310
+      '%Config5-FemaleAvatarArmorlv1greatsword_10': 647238711
+      '%Config5-FemaleAvatarArmorlv1greatsword_100': -772886092
+      '%Config5-FemaleAvatarArmorlv1greatsword_101': 1485349851
+      '%Config5-FemaleAvatarArmorlv1greatsword_102': -85753866
+      '%Config5-FemaleAvatarArmorlv1greatsword_103': 2088482062
+      '%Config5-FemaleAvatarArmorlv1greatsword_104': -990492656
+      '%Config5-FemaleAvatarArmorlv1greatsword_105': -977448982
+      '%Config5-FemaleAvatarArmorlv1greatsword_106': 635697414
+      '%Config5-FemaleAvatarArmorlv1greatsword_107': 1191177150
+      '%Config5-FemaleAvatarArmorlv1greatsword_108': -604146086
+      '%Config5-FemaleAvatarArmorlv1greatsword_109': -1709693761
+      '%Config5-FemaleAvatarArmorlv1greatsword_11': -1482582350
+      '%Config5-FemaleAvatarArmorlv1greatsword_12': 752430721
+      '%Config5-FemaleAvatarArmorlv1greatsword_13': -495217502
+      '%Config5-FemaleAvatarArmorlv1greatsword_14': 2059159568
+      '%Config5-FemaleAvatarArmorlv1greatsword_15': 2126386917
+      '%Config5-FemaleAvatarArmorlv1greatsword_16': 1514270886
+      '%Config5-FemaleAvatarArmorlv1greatsword_17': 1263193118
+      '%Config5-FemaleAvatarArmorlv1greatsword_18': 958843101
+      '%Config5-FemaleAvatarArmorlv1greatsword_19': 74809791
+      '%Config5-FemaleAvatarArmorlv1greatsword_2': -1335324981
+      '%Config5-FemaleAvatarArmorlv1greatsword_20': 1887530546
+      '%Config5-FemaleAvatarArmorlv1greatsword_21': -509862454
+      '%Config5-FemaleAvatarArmorlv1greatsword_22': 748445215
+      '%Config5-FemaleAvatarArmorlv1greatsword_23': 1015118984
+      '%Config5-FemaleAvatarArmorlv1greatsword_24': -744410891
+      '%Config5-FemaleAvatarArmorlv1greatsword_25': -300125940
+      '%Config5-FemaleAvatarArmorlv1greatsword_26': -1163403368
+      '%Config5-FemaleAvatarArmorlv1greatsword_27': -711500737
+      '%Config5-FemaleAvatarArmorlv1greatsword_28': -2068205648
+      '%Config5-FemaleAvatarArmorlv1greatsword_29': -1106973767
+      '%Config5-FemaleAvatarArmorlv1greatsword_3': -233053286
+      '%Config5-FemaleAvatarArmorlv1greatsword_30': -1187292575
+      '%Config5-FemaleAvatarArmorlv1greatsword_31': -993572794
+      '%Config5-FemaleAvatarArmorlv1greatsword_32': 436927441
+      '%Config5-FemaleAvatarArmorlv1greatsword_33': -104129352
+      '%Config5-FemaleAvatarArmorlv1greatsword_34': -20165290
+      '%Config5-FemaleAvatarArmorlv1greatsword_35': 1837022847
+      '%Config5-FemaleAvatarArmorlv1greatsword_36': -221530959
+      '%Config5-FemaleAvatarArmorlv1greatsword_37': -2004579811
+      '%Config5-FemaleAvatarArmorlv1greatsword_38': 1905819921
+      '%Config5-FemaleAvatarArmorlv1greatsword_39': 640205873
+      '%Config5-FemaleAvatarArmorlv1greatsword_4': 1229278888
+      '%Config5-FemaleAvatarArmorlv1greatsword_40': -1404802579
+      '%Config5-FemaleAvatarArmorlv1greatsword_41': -1720873471
+      '%Config5-FemaleAvatarArmorlv1greatsword_42': -757377575
+      '%Config5-FemaleAvatarArmorlv1greatsword_43': 1587527855
+      '%Config5-FemaleAvatarArmorlv1greatsword_44': 352399814
+      '%Config5-FemaleAvatarArmorlv1greatsword_45': -2072698896
+      '%Config5-FemaleAvatarArmorlv1greatsword_46': -1104461103
+      '%Config5-FemaleAvatarArmorlv1greatsword_47': -1286346066
+      '%Config5-FemaleAvatarArmorlv1greatsword_48': 350443044
+      '%Config5-FemaleAvatarArmorlv1greatsword_49': -1955352091
+      '%Config5-FemaleAvatarArmorlv1greatsword_5': -1787446925
+      '%Config5-FemaleAvatarArmorlv1greatsword_50': -1869741816
+      '%Config5-FemaleAvatarArmorlv1greatsword_51': 962999438
+      '%Config5-FemaleAvatarArmorlv1greatsword_52': 265966174
+      '%Config5-FemaleAvatarArmorlv1greatsword_53': -1856218799
+      '%Config5-FemaleAvatarArmorlv1greatsword_54': -1837776997
+      '%Config5-FemaleAvatarArmorlv1greatsword_55': -1324274347
+      '%Config5-FemaleAvatarArmorlv1greatsword_56': -763649369
+      '%Config5-FemaleAvatarArmorlv1greatsword_57': 1520650413
+      '%Config5-FemaleAvatarArmorlv1greatsword_58': -70344221
+      '%Config5-FemaleAvatarArmorlv1greatsword_59': -739187061
+      '%Config5-FemaleAvatarArmorlv1greatsword_6': 1390519903
+      '%Config5-FemaleAvatarArmorlv1greatsword_60': -1753924985
+      '%Config5-FemaleAvatarArmorlv1greatsword_61': -1236056313
+      '%Config5-FemaleAvatarArmorlv1greatsword_62': 1865479173
+      '%Config5-FemaleAvatarArmorlv1greatsword_63': 622371740
+      '%Config5-FemaleAvatarArmorlv1greatsword_64': -1026247056
+      '%Config5-FemaleAvatarArmorlv1greatsword_65': -2138162809
+      '%Config5-FemaleAvatarArmorlv1greatsword_66': 448038715
+      '%Config5-FemaleAvatarArmorlv1greatsword_67': -864479257
+      '%Config5-FemaleAvatarArmorlv1greatsword_68': -863688961
+      '%Config5-FemaleAvatarArmorlv1greatsword_69': -1252166443
+      '%Config5-FemaleAvatarArmorlv1greatsword_7': -627572456
+      '%Config5-FemaleAvatarArmorlv1greatsword_70': 103366775
+      '%Config5-FemaleAvatarArmorlv1greatsword_71': -1630777643
+      '%Config5-FemaleAvatarArmorlv1greatsword_72': -56477260
+      '%Config5-FemaleAvatarArmorlv1greatsword_73': -135108912
+      '%Config5-FemaleAvatarArmorlv1greatsword_74': 1923846602
+      '%Config5-FemaleAvatarArmorlv1greatsword_75': -337851206
+      '%Config5-FemaleAvatarArmorlv1greatsword_76': 699481197
+      '%Config5-FemaleAvatarArmorlv1greatsword_77': -580954146
+      '%Config5-FemaleAvatarArmorlv1greatsword_78': -1895166048
+      '%Config5-FemaleAvatarArmorlv1greatsword_79': -965224147
+      '%Config5-FemaleAvatarArmorlv1greatsword_8': 1555347545
+      '%Config5-FemaleAvatarArmorlv1greatsword_80': -2093227103
+      '%Config5-FemaleAvatarArmorlv1greatsword_81': 709303565
+      '%Config5-FemaleAvatarArmorlv1greatsword_82': -79846908
+      '%Config5-FemaleAvatarArmorlv1greatsword_83': -1448329513
+      '%Config5-FemaleAvatarArmorlv1greatsword_84': -980182829
+      '%Config5-FemaleAvatarArmorlv1greatsword_85': 601951460
+      '%Config5-FemaleAvatarArmorlv1greatsword_86': -170765828
+      '%Config5-FemaleAvatarArmorlv1greatsword_87': 723039040
+      '%Config5-FemaleAvatarArmorlv1greatsword_88': 1112237295
+      '%Config5-FemaleAvatarArmorlv1greatsword_89': -887961710
+      '%Config5-FemaleAvatarArmorlv1greatsword_9': 62983917
+      '%Config5-FemaleAvatarArmorlv1greatsword_90': -565542562
+      '%Config5-FemaleAvatarArmorlv1greatsword_91': 955310972
+      '%Config5-FemaleAvatarArmorlv1greatsword_92': -1464203362
+      '%Config5-FemaleAvatarArmorlv1greatsword_93': -1094272021
+      '%Config5-FemaleAvatarArmorlv1greatsword_94': 1174329189
+      '%Config5-FemaleAvatarArmorlv1greatsword_95': 823766035
+      '%Config5-FemaleAvatarArmorlv1greatsword_96': 720826871
+      '%Config5-FemaleAvatarArmorlv1greatsword_97': -1991944855
+      '%Config5-FemaleAvatarArmorlv1greatsword_98': 949749771
+      '%Config5-FemaleAvatarArmorlv1greatsword_99': 2084957510
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
