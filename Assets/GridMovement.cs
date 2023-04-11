@@ -20,8 +20,8 @@ public class GridMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float movimientoHorizontal = Input.GetAxisRaw("Horizontal");
-        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));
+       /* float movimientoHorizontal = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));*/
         if (Input.GetKey(KeyCode.W) && !isMoving)
         {
             StartCoroutine(MovePlayer(Vector3.up));
