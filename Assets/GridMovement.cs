@@ -10,6 +10,7 @@ public class GridMovement : MonoBehaviour
 
     public Animator animator;
     private float movimientoHorizontal = 0f;
+    private float movimientoVertical = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,15 +21,23 @@ public class GridMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       /* float movimientoHorizontal = Input.GetAxisRaw("Horizontal");
-        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));*/
+
+
+        if (movimientoHorizontal != 0 && movimientoVertical != 0)
+        {
+            
+
+        }
         if (Input.GetKey(KeyCode.W) && !isMoving)
         {
+            animator.SetFloat("YInput", movimientoVertical);
+
             StartCoroutine(MovePlayer(Vector3.up));
+
         }
         if (Input.GetKey(KeyCode.D) && !isMoving)
         {
-
+            animator.SetFloat("XInput", movimientoHorizontal);
             StartCoroutine(MovePlayer(Vector3.right));
 
         }
@@ -41,6 +50,8 @@ public class GridMovement : MonoBehaviour
         {
             StartCoroutine(MovePlayer(Vector3.left));
         }
+
+
     }
 
     private IEnumerator MovePlayer(Vector3 direction)
