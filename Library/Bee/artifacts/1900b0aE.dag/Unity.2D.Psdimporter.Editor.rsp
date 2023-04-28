@@ -115,7 +115,6 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/dll/MySql.Data.dll"
--r:"Assets/dll/mysql.data.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -354,8 +353,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/dll/MySql.Data.dll"
--analyzer:"Assets/dll/System.Data.dll"
 "Library/PackageCache/com.unity.2d.psdimporter@6.0.7/Editor/Analytics.cs"
 "Library/PackageCache/com.unity.2d.psdimporter@6.0.7/Editor/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.psdimporter@6.0.7/Editor/ImportUtilites.cs"
