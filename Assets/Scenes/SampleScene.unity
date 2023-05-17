@@ -137,7 +137,6 @@ GameObject:
   - component: {fileID: 16491297}
   - component: {fileID: 16491301}
   - component: {fileID: 16491302}
-  - component: {fileID: 16491303}
   m_Layer: 0
   m_Name: muneco
   m_TagString: Untagged
@@ -245,10 +244,9 @@ Transform:
   m_LocalPosition: {x: -2.88, y: -0.23, z: 0}
   m_LocalScale: {x: 1.5745, y: 1.5745, z: 1.5745}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 519420032}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &16491301
 Animator:
@@ -279,24 +277,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 16491296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b36c42ba30971754ba22b1b63e244538, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a1544e81d3c5f0439bb67c4da1f1db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 16491301}
   moveSpeed: 4
-  movePoint: {fileID: 0}
---- !u!114 &16491303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16491296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cf40b315039c91438d7a6c55ae5f66e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 16491301}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,12 +359,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.05, z: -6.351223}
-  m_LocalScale: {x: 0.6351223, y: 0.6351223, z: 0.6351223}
+  m_LocalPosition: {x: -2.9272351, y: -0.308725, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1733186235}
-  m_Father: {fileID: 16491300}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392180846
@@ -425,7 +410,7 @@ Transform:
   m_Children:
   - {fileID: 2071626551}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1733186234
 GameObject:
