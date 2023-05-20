@@ -40,4 +40,12 @@ public class AdminMYSQL : MonoBehaviour
         MySqlDataReader resultado = cmd.ExecuteReader();
         return resultado;
     }
+
+     public MySqlDataReader insert(string insert) {
+
+        string sql = "INSERT INTO " + insert;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
 }
