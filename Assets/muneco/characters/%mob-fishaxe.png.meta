@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,3451 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '%mob-fishaxe_0'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2136
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a9f1d6b6daba4286f24281b1f2414
+      internalID: -904187593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_1'
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2132
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324ebf83ccc54304bb21ab2c81439063
+      internalID: 302137276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_2'
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2137
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d67013f7ae2f14a90947e84912b5c8
+      internalID: -1210538514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_3'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2136
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5e2d16c9153c4db2c2c49da41b3e5
+      internalID: -10432642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_4'
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2140
+        width: 97
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36fcc685ac86e64c911840f517eab93
+      internalID: -1245365346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_5'
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 2140
+        width: 96
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f703f8f6c958224cafe10ff6d22feee
+      internalID: 1213086388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_6'
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2137
+        width: 110
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe9df41908a3042903d63b4c929eb8
+      internalID: -1033747936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_7'
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2133
+        width: 97
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2876ce28557e34a8d65055375a6c43
+      internalID: 1146173417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_8'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2136
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d460c97a3021c747a0499a7ca4536f8
+      internalID: -423912587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_9'
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 2136
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9fc6bcec1f42b4d9466d914bc74b04
+      internalID: -1051550217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_10'
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2136
+        width: 98
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4446102a6077d5c48b4d7cae89298eee
+      internalID: -568603566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_11'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1972
+        width: 105
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f4447314e12a54f97de9f000a1898a
+      internalID: 1289764524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_12'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1972
+        width: 110
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dce276edd0826549ab846398ed4c4f6
+      internalID: -836348834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_13'
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1972
+        width: 109
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5407c778a4fd64a9da3e1cf0264c9c
+      internalID: 1415235616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_14'
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1974
+        width: 96
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db51e63f9d4acee4b90d424216550200
+      internalID: 1246142846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_15'
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1974
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546372a6074ed724db1938d4d4c76111
+      internalID: -942946355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_16'
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1974
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed9dce6160546145b6d2b19dfa87c11
+      internalID: 123802333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_17'
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1974
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c36cf3d6c1a64b8d3ca3019ffb5d8
+      internalID: -292810969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_18'
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1974
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046d1925f09f4e499757f88b1341289
+      internalID: -339979211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_19'
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1974
+        width: 98
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f017d451635c2ba4e91ff5196415caea
+      internalID: 359311589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_20'
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1976
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4d224c0ecaf344284e44fce3046186
+      internalID: -557127570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_21'
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1976
+        width: 119
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07847c075337b5448e3022a506c5bc0
+      internalID: -1766301239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_22'
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1812
+        width: 104
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcd2e26d990f6346be116a5854e2e53
+      internalID: -2020975794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_23'
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1812
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be3ec6da1eda9744bb6835e47cb5adf
+      internalID: -471416691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_24'
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1812
+        width: 102
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9f4c4c0bbab8f4f919fad60852e857
+      internalID: -1989213502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_25'
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1812
+        width: 97
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5c849a96a8a9147a99be901204ff50
+      internalID: -1022540958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_26'
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1809
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15a46b0c6717b848b885cc12c2723e3
+      internalID: 1613363652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_27'
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1809
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79868e7de10353449ac0f3feaeb71619
+      internalID: -787763118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_28'
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1809
+        width: 97
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53a45b431f84943b85be639e842450
+      internalID: -1051643565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_29'
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1809
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457308471259a734a85a051807359a35
+      internalID: 372763871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_30'
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1809
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb3e2985723aa3438300d25c919b6f9
+      internalID: 525980643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_31'
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1809
+        width: 104
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d294ff8fd45a67b4db84640892640bd7
+      internalID: -2074657060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_32'
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1803
+        width: 97
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4f0c63ec0f31c40a9a917295be3331
+      internalID: -1380677780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_33'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1639
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea151dcbf63397149bbdf0da0bb207c3
+      internalID: 1101581596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_34'
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1639
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9005f3c59b1335842b4c11423367c9bf
+      internalID: -782275163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_35'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1639
+        width: 97
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eb0b8075df3a74a99031e51b734969
+      internalID: -585044163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_36'
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1639
+        width: 103
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e3ab2bdbf42c648abf25c8724039f9
+      internalID: -587643358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_37'
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1639
+        width: 103
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ff7708c7351f488141f91c7c5c7f0
+      internalID: -1221330904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_38'
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1639
+        width: 101
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a042ff0b517e44f479c4c93a0c91a185
+      internalID: 1586975820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_39'
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1639
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceec1ac36857c34eb87b0e4cfb0e8eb
+      internalID: 1282952735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_40'
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1639
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fb89da940c0df47a33e9f69ca380af
+      internalID: 343853871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_41'
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1639
+        width: 102
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85738a7f12a6d2345bf30b2b739f1da6
+      internalID: -131999289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_42'
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1639
+        width: 99
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b220d19cb63bc4ab0cc4af17498dff
+      internalID: 514137977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_43'
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1639
+        width: 99
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a555dd454beb6440a841c8677a2bd05
+      internalID: -1864369529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_44'
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1480
+        width: 128
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88f18db58d7b94ca6b1014fda01b0e
+      internalID: -1254254709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_45'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1480
+        width: 132
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb9a353586722040a5647451e861936
+      internalID: 455601968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_46'
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1480
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32240a709e298144daab1c4231f654c7
+      internalID: 327571628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_47'
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1480
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a03e9ea63ce5584db9b4cf015228614
+      internalID: 526063247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_48'
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1480
+        width: 117
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3865a2255af879b4db24f69b8ec08ed1
+      internalID: 1278189971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_49'
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1480
+        width: 118
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db369937a4bbf742bc97c1382daaf8c
+      internalID: 1187978693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_50'
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1482
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146d930af4a3884aa2f45f369beaeac
+      internalID: -1557403086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_51'
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1482
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e030d3c82559c4eb40be17f30f86e2
+      internalID: -1829362443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_52'
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1482
+        width: 123
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8b1b3aabe967b418981ad929fdf0a7
+      internalID: -2072474276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_53'
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1482
+        width: 119
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e039050e6738e3b468df9c2174d5698d
+      internalID: 754554057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_54'
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1482
+        width: 122
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2fd79eb4ad35468d04d3b97d855e3
+      internalID: 1350286200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_55'
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1318
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207eda4dee9da3c48a30fe64be5ce98e
+      internalID: -1898397769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_56'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1318
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb38896816c8e25418e0cda44dc98e79
+      internalID: -2081058673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_57'
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1318
+        width: 106
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1e1980b604f7a4890e5e58818145ce
+      internalID: 228565692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_58'
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1318
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3610bfb97a8e44db6a88bb5daf91ed
+      internalID: -2036664277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_59'
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1314
+        width: 114
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f689fae5f2785b445b61a156f7a93151
+      internalID: 460069098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_60'
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1314
+        width: 97
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b152cc84910354eb452c8addb4c693
+      internalID: -1345894607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_61'
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1314
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7bbe9a541b0294caa6e2e2086dd100
+      internalID: -277104186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_62'
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1317
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feeb014f2533974a8ff3fab19b665a9
+      internalID: 445231828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_63'
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1317
+        width: 115
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50535c234dfe8664dabaa6affdb3a85e
+      internalID: -325728557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_64'
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1317
+        width: 107
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40bc4e2e2de31145bfbb3abab763244
+      internalID: 2025526594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_65'
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1322
+        width: 98
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d777719cc44044b8259364949308a5
+      internalID: 1214599304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_66'
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1159
+        width: 113
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b332bf9b48087c346abe21e7358108af
+      internalID: 301181206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_67'
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1159
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ad5fb44f73e194ab0fa6a4ddf5203c
+      internalID: -1872719424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_68'
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1149
+        width: 102
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6c7696f2c8934aa93ce0355b34f14
+      internalID: 806663635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_69'
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1149
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01848b441b4a38140834668942084494
+      internalID: -679787347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_70'
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1149
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844710b4645cb184199a704c5434e81e
+      internalID: 827292702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_71'
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1161
+        width: 126
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c35bd3cfdf99143b8ef4ebb413565a
+      internalID: 505089680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_72'
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1161
+        width: 131
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75895be8d00fb994b9dc5b26eced7d2a
+      internalID: -277535745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_73'
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1161
+        width: 122
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381749be56968584ab62c5924d5dd122
+      internalID: 1080990132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_74'
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1154
+        width: 130
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4370848ce37f9c24285a09faada05cd0
+      internalID: 1269147082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_75'
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1154
+        width: 123
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927fa72da16b7c4488f65476afaea20
+      internalID: 1803478609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_76'
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1154
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b506b2dd482c3f4ab552480df600e37
+      internalID: -203683526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_77'
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 991
+        width: 104
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632e899f18d00249a487aac396b7ae5
+      internalID: -1788593132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_78'
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 991
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399237fade9e29345b9922421f3c48bc
+      internalID: -352874038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_79'
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 991
+        width: 97
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a4ee9b2f557074a82f54db3600551f
+      internalID: 908740642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_80'
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 984
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7fd45d173772f48a335f3aba52aa40
+      internalID: 1363144926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_81'
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 984
+        width: 99
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26134bc646527174fbba09b7e61120f7
+      internalID: -652889461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_82'
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 984
+        width: 115
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cafee02392cc1742ad419ad7274e309
+      internalID: 921935657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_83'
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 987
+        width: 97
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539366ff111279d41b9297d81af71949
+      internalID: -1260275716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_84'
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 987
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a362c07bcf7154a4aa48b5a54da4a44f
+      internalID: -447180104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_85'
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 987
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03c57c15815f7d4cb47c9c3b127274a
+      internalID: -103530562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_86'
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 991
+        width: 98
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca532af7449675458cbf7b172a21e39
+      internalID: -1052997683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_87'
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 991
+        width: 98
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a96e4f9a5d9e34bbcb29b3486244a9
+      internalID: 1045047248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_88'
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 828
+        width: 98
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93c05601aa29174189e84330dce111b
+      internalID: 880009951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_89'
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 829
+        width: 97
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f4cf23906fd544e95275de601528c1
+      internalID: -480322719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_90'
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 829
+        width: 105
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7bbb1a079c7b9429e9ec284cf5b7f2
+      internalID: 1237073173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_91'
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 829
+        width: 116
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b32bb3514e71243a3c680020907c1d
+      internalID: 2046220876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_92'
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 832
+        width: 97
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5d0ac1c4c6ad4cb93d9985f58af55
+      internalID: -1511640580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_93'
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 832
+        width: 97
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4390014ecc978994995d784e284e8a72
+      internalID: 1520416927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_94'
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 832
+        width: 116
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b473816ca42257547beaa9074d4f97be
+      internalID: -1227032534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_95'
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 831
+        width: 98
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ddd4806f3d59540ae3b938a70b3169
+      internalID: 2091291642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_96'
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 831
+        width: 98
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afeef419590d434dbb88c3f07047003
+      internalID: 663197008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_97'
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 831
+        width: 112
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03180fe8de4849747b7c9ab4b3f17a29
+      internalID: 1323226957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_98'
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 826
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e470d2e9f941342bda4df956eb1a22
+      internalID: -972889675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_99'
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 662
+        width: 104
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5ff969ee58ad941959a4ca71d6eb47
+      internalID: -1249277880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_100'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 662
+        width: 105
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d617a6c176b4e4ca54976e70a74a8f
+      internalID: -1273481071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_101'
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 660
+        width: 97
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29f7e5322e1af441bdd8721e01a908b
+      internalID: 1079508534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_102'
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 660
+        width: 98
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3197a04217edd34fb21d931174295a9
+      internalID: 1583283630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_103'
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 660
+        width: 114
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe447ab14f3c4614c9880c0b167da014
+      internalID: 1626344682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_104'
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 662
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd7af0f421fd764398390ec0371a473
+      internalID: -1941059109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_105'
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 662
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780b0ac20b4b5e14c85b81b074e334b3
+      internalID: -1109420480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_106'
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 662
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399cbd1eab4e57449b09a4cfc493e69
+      internalID: -310226045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_107'
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 658
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c1e00caaf783c48b5261f44e1fa33f
+      internalID: 152776710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_108'
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 658
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f22fe48f38dda49b5d1cbb3f1d2848
+      internalID: -2073650006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_109'
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 658
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30382d1d7f2035b4a8202f6ba4e30015
+      internalID: 390749080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_110'
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 497
+        width: 107
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70733627cfd178a41a58d85f13a6c58a
+      internalID: -664611549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_111'
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 494
+        width: 100
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e913066d115414d9d1dcc6e37f8e3a
+      internalID: 731981780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_112'
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 494
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdfdad3e5cf37844bceb9130db0d72e
+      internalID: -1100469345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_113'
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 494
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3b638971f7e74f8cb220dadf8d294
+      internalID: 1060330210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_114'
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 498
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e0cf3cad2d02246b66eb2ffa6aadf0
+      internalID: -1970790931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_115'
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 502
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8a4c549ede64438a4b41e81aa6294
+      internalID: -1060851779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_116'
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 501
+        width: 97
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b3f7085d07222488bafa2c39388967
+      internalID: -1679707568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_117'
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 497
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a3349080ad9044fa94cc4707016981
+      internalID: -323695055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_118'
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 494
+        width: 97
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed103ce013e859429af443741524c31
+      internalID: -789042120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_119'
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 499
+        width: 107
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b39c5519251846b68ac6b6a0f6e55
+      internalID: -711647233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_120'
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 499
+        width: 105
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968f409694be7b84c8ad655eac7f4190
+      internalID: 288010026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_121'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 332
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce42ff2cc4c7b24b94ab12b1c30e210
+      internalID: 1533592076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_122'
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 332
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666d4cb185e26504dbdf404f67b6adbb
+      internalID: 1084754833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_123'
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 332
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbbbd7cfd11a1a499316add6128eed5
+      internalID: -342861600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_124'
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 334
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a80f99af0763c458e493d71b4987c3
+      internalID: -1672440701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_125'
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 334
+        width: 97
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e9a52fdd6cd514a87e942ffcbef5be
+      internalID: -927943071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_126'
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 334
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e09a5c0ca6e6149b97465440d7476e
+      internalID: 681187428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_127'
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 334
+        width: 98
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d898afbdafe0dc4ea0e06da3034ce33
+      internalID: -592860637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_128'
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 334
+        width: 100
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010e94731009ce44b1c71aaf18f31df
+      internalID: 464626507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_129'
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 334
+        width: 107
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7669c07c19535e14eb6e6bf40a266553
+      internalID: -1856301492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_130'
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 334
+        width: 146
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a1f7115449ee74abf6e02ef8994cca
+      internalID: 1621781519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_131'
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 334
+        width: 137
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09422d2f19662478d8183649907e71
+      internalID: 252036541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_132'
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 186
+        width: 141
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09f27071032ccf499b61b170f94b57f
+      internalID: -116369875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_133'
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 183
+        width: 137
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5be3288ed09eeb43ae66a08fe339708
+      internalID: 685643095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_134'
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 176
+        width: 117
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b7ef18d417814b8305c1d87eb9588
+      internalID: 614690739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_135'
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 178
+        width: 129
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5590f02084d9e64458388e2a0e0504e1
+      internalID: -1810988512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_136'
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 178
+        width: 138
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71314145fad0e241b2a31b6af750b07
+      internalID: 556603070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_137'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 168
+        width: 100
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4505a29bf3effca44a9cb8ff59e73c06
+      internalID: 1630305866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_138'
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 168
+        width: 119
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b595c1af3bc5429b787817c9e7420
+      internalID: 971807609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_139'
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 166
+        width: 139
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aff998efdc55f4f8a9f231c805e737
+      internalID: 340070210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_140'
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 180
+        width: 102
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb6da8f4d93224468e0730a61a30f1e
+      internalID: -2105283679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_141'
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 181
+        width: 108
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e093e76112defc49b796a27cdaaf7de
+      internalID: -254437016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_142'
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 162
+        width: 138
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2581fd65f75346248872154a5e5bde14
+      internalID: -1065825824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_143'
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 11
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb43254f5f4185e459c659f00f5efd10
+      internalID: -766102710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_144'
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 11
+        width: 131
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f355cb5ae5699b14996fad81c2825a90
+      internalID: -814915076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_145'
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 3
+        width: 144
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3341ad47d678a4f80275e6d089bb72
+      internalID: 1192761117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_146'
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 9
+        width: 128
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e141e7e35008b0b4893973ba1a8501d5
+      internalID: 324464274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_147'
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 9
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b704df8c6d234649860d21f5de94cf8
+      internalID: 706541102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_148'
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 9
+        width: 141
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b73616120d5554e8b7242114736202
+      internalID: 776169338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_149'
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 9
+        width: 123
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481c3d9f1bc1f9e4480a252b84ff2a24
+      internalID: -116634551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_150'
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 9
+        width: 124
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954855d209fbee345a68a95a516804e4
+      internalID: -496277711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_151'
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 9
+        width: 147
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee953585400fe024ba5981b7a2407cb7
+      internalID: -1215253273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_152'
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 10
+        width: 97
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7319eac93278f284aa7f32de665a3aa5
+      internalID: 233347612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_153'
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 10
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ac495e2220b6b42a2bbc0c8a252c41
+      internalID: 1260617853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_154'
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 71
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e12be3a2669bf47959e321dd57e89d
+      internalID: -1715495283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_155'
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3
+        width: 70
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88dec0346d8f84a92751ba8db5715f
+      internalID: 2123103587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_156'
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 71
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427b39e31def421469ddc32daa79dd11
+      internalID: -1606243519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_157'
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 68
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248dd670c36e8c449800369be3cdea68
+      internalID: 496655557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_158'
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 70
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab941fd2022bf44cb31b58d58deefa5
+      internalID: -1776855820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_159'
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 71
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f15758f17f7b24b8cb3682891b75f9
+      internalID: 808115182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_160'
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 0
+        width: 69
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995bc21a6934944eb889f049aa261ba
+      internalID: -123336304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_161'
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 0
+        width: 71
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fef3e541e344bb4db26cb33c82ad747
+      internalID: -1910830630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_162'
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 69
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d15a278914711148bc13bb42a9456c9
+      internalID: 1428270383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%mob-fishaxe_163'
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 69
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7067136540f89448a335f4035b5d199
+      internalID: -1021320208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +3570,171 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '%mob-fishaxe_0': -904187593
+      '%mob-fishaxe_1': 302137276
+      '%mob-fishaxe_10': -568603566
+      '%mob-fishaxe_100': -1273481071
+      '%mob-fishaxe_101': 1079508534
+      '%mob-fishaxe_102': 1583283630
+      '%mob-fishaxe_103': 1626344682
+      '%mob-fishaxe_104': -1941059109
+      '%mob-fishaxe_105': -1109420480
+      '%mob-fishaxe_106': -310226045
+      '%mob-fishaxe_107': 152776710
+      '%mob-fishaxe_108': -2073650006
+      '%mob-fishaxe_109': 390749080
+      '%mob-fishaxe_11': 1289764524
+      '%mob-fishaxe_110': -664611549
+      '%mob-fishaxe_111': 731981780
+      '%mob-fishaxe_112': -1100469345
+      '%mob-fishaxe_113': 1060330210
+      '%mob-fishaxe_114': -1970790931
+      '%mob-fishaxe_115': -1060851779
+      '%mob-fishaxe_116': -1679707568
+      '%mob-fishaxe_117': -323695055
+      '%mob-fishaxe_118': -789042120
+      '%mob-fishaxe_119': -711647233
+      '%mob-fishaxe_12': -836348834
+      '%mob-fishaxe_120': 288010026
+      '%mob-fishaxe_121': 1533592076
+      '%mob-fishaxe_122': 1084754833
+      '%mob-fishaxe_123': -342861600
+      '%mob-fishaxe_124': -1672440701
+      '%mob-fishaxe_125': -927943071
+      '%mob-fishaxe_126': 681187428
+      '%mob-fishaxe_127': -592860637
+      '%mob-fishaxe_128': 464626507
+      '%mob-fishaxe_129': -1856301492
+      '%mob-fishaxe_13': 1415235616
+      '%mob-fishaxe_130': 1621781519
+      '%mob-fishaxe_131': 252036541
+      '%mob-fishaxe_132': -116369875
+      '%mob-fishaxe_133': 685643095
+      '%mob-fishaxe_134': 614690739
+      '%mob-fishaxe_135': -1810988512
+      '%mob-fishaxe_136': 556603070
+      '%mob-fishaxe_137': 1630305866
+      '%mob-fishaxe_138': 971807609
+      '%mob-fishaxe_139': 340070210
+      '%mob-fishaxe_14': 1246142846
+      '%mob-fishaxe_140': -2105283679
+      '%mob-fishaxe_141': -254437016
+      '%mob-fishaxe_142': -1065825824
+      '%mob-fishaxe_143': -766102710
+      '%mob-fishaxe_144': -814915076
+      '%mob-fishaxe_145': 1192761117
+      '%mob-fishaxe_146': 324464274
+      '%mob-fishaxe_147': 706541102
+      '%mob-fishaxe_148': 776169338
+      '%mob-fishaxe_149': -116634551
+      '%mob-fishaxe_15': -942946355
+      '%mob-fishaxe_150': -496277711
+      '%mob-fishaxe_151': -1215253273
+      '%mob-fishaxe_152': 233347612
+      '%mob-fishaxe_153': 1260617853
+      '%mob-fishaxe_154': -1715495283
+      '%mob-fishaxe_155': 2123103587
+      '%mob-fishaxe_156': -1606243519
+      '%mob-fishaxe_157': 496655557
+      '%mob-fishaxe_158': -1776855820
+      '%mob-fishaxe_159': 808115182
+      '%mob-fishaxe_16': 123802333
+      '%mob-fishaxe_160': -123336304
+      '%mob-fishaxe_161': -1910830630
+      '%mob-fishaxe_162': 1428270383
+      '%mob-fishaxe_163': -1021320208
+      '%mob-fishaxe_17': -292810969
+      '%mob-fishaxe_18': -339979211
+      '%mob-fishaxe_19': 359311589
+      '%mob-fishaxe_2': -1210538514
+      '%mob-fishaxe_20': -557127570
+      '%mob-fishaxe_21': -1766301239
+      '%mob-fishaxe_22': -2020975794
+      '%mob-fishaxe_23': -471416691
+      '%mob-fishaxe_24': -1989213502
+      '%mob-fishaxe_25': -1022540958
+      '%mob-fishaxe_26': 1613363652
+      '%mob-fishaxe_27': -787763118
+      '%mob-fishaxe_28': -1051643565
+      '%mob-fishaxe_29': 372763871
+      '%mob-fishaxe_3': -10432642
+      '%mob-fishaxe_30': 525980643
+      '%mob-fishaxe_31': -2074657060
+      '%mob-fishaxe_32': -1380677780
+      '%mob-fishaxe_33': 1101581596
+      '%mob-fishaxe_34': -782275163
+      '%mob-fishaxe_35': -585044163
+      '%mob-fishaxe_36': -587643358
+      '%mob-fishaxe_37': -1221330904
+      '%mob-fishaxe_38': 1586975820
+      '%mob-fishaxe_39': 1282952735
+      '%mob-fishaxe_4': -1245365346
+      '%mob-fishaxe_40': 343853871
+      '%mob-fishaxe_41': -131999289
+      '%mob-fishaxe_42': 514137977
+      '%mob-fishaxe_43': -1864369529
+      '%mob-fishaxe_44': -1254254709
+      '%mob-fishaxe_45': 455601968
+      '%mob-fishaxe_46': 327571628
+      '%mob-fishaxe_47': 526063247
+      '%mob-fishaxe_48': 1278189971
+      '%mob-fishaxe_49': 1187978693
+      '%mob-fishaxe_5': 1213086388
+      '%mob-fishaxe_50': -1557403086
+      '%mob-fishaxe_51': -1829362443
+      '%mob-fishaxe_52': -2072474276
+      '%mob-fishaxe_53': 754554057
+      '%mob-fishaxe_54': 1350286200
+      '%mob-fishaxe_55': -1898397769
+      '%mob-fishaxe_56': -2081058673
+      '%mob-fishaxe_57': 228565692
+      '%mob-fishaxe_58': -2036664277
+      '%mob-fishaxe_59': 460069098
+      '%mob-fishaxe_6': -1033747936
+      '%mob-fishaxe_60': -1345894607
+      '%mob-fishaxe_61': -277104186
+      '%mob-fishaxe_62': 445231828
+      '%mob-fishaxe_63': -325728557
+      '%mob-fishaxe_64': 2025526594
+      '%mob-fishaxe_65': 1214599304
+      '%mob-fishaxe_66': 301181206
+      '%mob-fishaxe_67': -1872719424
+      '%mob-fishaxe_68': 806663635
+      '%mob-fishaxe_69': -679787347
+      '%mob-fishaxe_7': 1146173417
+      '%mob-fishaxe_70': 827292702
+      '%mob-fishaxe_71': 505089680
+      '%mob-fishaxe_72': -277535745
+      '%mob-fishaxe_73': 1080990132
+      '%mob-fishaxe_74': 1269147082
+      '%mob-fishaxe_75': 1803478609
+      '%mob-fishaxe_76': -203683526
+      '%mob-fishaxe_77': -1788593132
+      '%mob-fishaxe_78': -352874038
+      '%mob-fishaxe_79': 908740642
+      '%mob-fishaxe_8': -423912587
+      '%mob-fishaxe_80': 1363144926
+      '%mob-fishaxe_81': -652889461
+      '%mob-fishaxe_82': 921935657
+      '%mob-fishaxe_83': -1260275716
+      '%mob-fishaxe_84': -447180104
+      '%mob-fishaxe_85': -103530562
+      '%mob-fishaxe_86': -1052997683
+      '%mob-fishaxe_87': 1045047248
+      '%mob-fishaxe_88': 880009951
+      '%mob-fishaxe_89': -480322719
+      '%mob-fishaxe_9': -1051550217
+      '%mob-fishaxe_90': 1237073173
+      '%mob-fishaxe_91': 2046220876
+      '%mob-fishaxe_92': -1511640580
+      '%mob-fishaxe_93': 1520416927
+      '%mob-fishaxe_94': -1227032534
+      '%mob-fishaxe_95': 2091291642
+      '%mob-fishaxe_96': 663197008
+      '%mob-fishaxe_97': 1323226957
+      '%mob-fishaxe_98': -972889675
+      '%mob-fishaxe_99': -1249277880
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

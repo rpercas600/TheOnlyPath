@@ -374,6 +374,7 @@
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
 "Assets/Scripts/AdminMYSQL.cs"
+"Assets/Scripts/Enemy1.cs"
 "Assets/Scripts/GridMovement.cs"
 "Assets/Scripts/Login.cs"
 "Assets/Scripts/PlayerController.cs"
