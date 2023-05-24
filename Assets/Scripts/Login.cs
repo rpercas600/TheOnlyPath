@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.UI;
 using MySql.Data.MySqlClient;
 using TMPro;
@@ -26,13 +27,27 @@ public class Login : MonoBehaviour
 
         if (resultado.HasRows)
         {
-            Debug.Log("conectado correctamenteeeeee.");
+            bool playOutput = EditorUtility.DisplayDialog("Acceso correcto", "Accediendo al juego", "Aceptar", "Volver");
+            if (playOutput)
+            {
+                Debug.Log("conectado correctamenteeeeee.");
+                resultado.Close();
+                SceneManager.LoadScene("SampleScene");
+            }
+            else
             resultado.Close();
-            SceneManager.LoadScene("SampleScene");
         }
         else
         {
-            Debug.Log("NO CONECTADO.");
+            bool playOutput = EditorUtility.DisplayDialog("Error", "Datos incorrectos, intente de nuevo.", "Ok");
+            if (playOutput)
+            {
+                Debug.Log("NO CONECTADO.");
+
+                resultado.Close();
+            }
+            else
+                Debug.Log("NO CONECTADO.");
             resultado.Close();
         }
     }
@@ -44,25 +59,25 @@ public class Login : MonoBehaviour
         {
             string log = " WHERE username = '" + usernameTxt.text + "' AND password = '"
         + passTxt.text + "';";
-        AdminMYSQL adminMYSQL = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+            AdminMYSQL adminMYSQL = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
 
             MySqlDataReader resultado = adminMYSQL.select(log);
 
             if (resultado.HasRows)
-        {
-            Debug.Log("ya eciste ese usuario.");
-            resultado.Close();
-            
-        }
-        else
-        {
-            resultado.Close();
-            log = "`account` (`username`, `password`) VALUES ('"+usernameTxt.text+"', '"+passTxt.text+"')";
-            resultado = adminMYSQL.insert(log);
-            Debug.Log("usuario creado correctamente");
-            resultado.Close();
-            showHideRegister();
-        }
+            {
+                Debug.Log("ya eciste ese usuario.");
+                resultado.Close();
+
+            }
+            else
+            {
+                resultado.Close();
+                log = "`account` (`username`, `password`) VALUES ('" + usernameTxt.text + "', '" + passTxt.text + "')";
+                resultado = adminMYSQL.insert(log);
+                Debug.Log("usuario creado correctamente");
+                resultado.Close();
+                showHideRegister();
+            }
         }
         else
         {
