@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.UI;
 using MySql.Data.MySqlClient;
 using TMPro;
@@ -13,8 +12,29 @@ public class Login : MonoBehaviour
     public TMP_InputField passTxt;
     public TMP_InputField repeatPass;
 
+    public Text user1;
+
+    public Text tp1;
+    public Text textSuccessFail;
+
+        public Text textErrorAdminPanel;
+        public Text userAdminFoundTxt;
+        public Text passAdminFoundTxt;
+        public Text adminAdminFoundTxt;
+public TMP_InputField searchAdminField;
+        public TMP_InputField userFoundField;
+        public TMP_InputField passFoundField;
+        public TMP_InputField adminFoundField;
     public GameObject login;
     public GameObject register;
+
+    public GameObject common;
+    public GameObject timePlayed;
+
+    public GameObject adminPanel;
+
+
+
     public void logear()
     {
         string log = " WHERE username = '"
@@ -25,29 +45,76 @@ public class Login : MonoBehaviour
 
         MySqlDataReader resultado = admin.select(log);
 
+
         if (resultado.HasRows)
         {
-            bool playOutput = EditorUtility.DisplayDialog("Acceso correcto", "Accediendo al juego", "Aceptar", "Volver");
-            if (playOutput)
+            if (resultado.Read())  //necesario para leer los datos que devuelve
             {
-                Debug.Log("conectado correctamenteeeeee.");
-                resultado.Close();
-                SceneManager.LoadScene("SampleScene");
+                if (resultado.GetString(2) == "y") //miro a ver si es admin
+                {
+
+                    Debug.Log("conectado como admin");
+                    showHideAdminPanel();
+                    resultado.Close();
+
+                }
+                else
+                {
+                    Debug.Log("Conectado como jugador normal.");
+                    //   bool playOutput = EditorUtility.DisplayDialog("Acceso correcto", "Accediendo al juego", "Aceptar", "Volver");
+                    //   if (playOutput)
+                    //  {
+                    Debug.Log("conectado correctamenteeeeee.");
+                    resultado.Close();
+                    textSuccessFail.color = Color.green;
+                    textSuccessFail.text = "Conectado correctamente";
+                    changeToGameScene();
+                    //  }
+                    //   else
+                    //  resultado.Close();
+                }
             }
-            else
-            resultado.Close();
+
         }
         else
         {
-            bool playOutput = EditorUtility.DisplayDialog("Error", "Datos incorrectos, intente de nuevo.", "Ok");
-            if (playOutput)
-            {
-                Debug.Log("NO CONECTADO.");
+            // bool playOutput = EditorUtility.DisplayDialog("Error", "Datos incorrectos, intente de nuevo.", "Ok");
+            //  if (playOutput)
+            //   {
+            Debug.Log("NO CONECTADO.");
+            textSuccessFail.color = Color.red;
+            textSuccessFail.text = "Error al introducir los datos.";
+            resultado.Close();
+            //    }
+            //   else
+            //       Debug.Log("NO CONECTADO.");
+            //    resultado.Close();
+        }
+    }
 
+    public void searchUser() {
+        string log = " WHERE username = '"
+        + searchAdminField.text + "';";
+
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+
+        MySqlDataReader resultado = admin.select(log);
+        if (resultado.HasRows)
+        {
+            if (resultado.Read())  //necesario para leer los datos que devuelve
+            {
+                textErrorAdminPanel.text = "";
+                userAdminFoundTxt.text = resultado.GetString(0);
+                passAdminFoundTxt.text = resultado.GetString(1);
+                adminAdminFoundTxt.text = resultado.GetString(2);
                 resultado.Close();
             }
-            else
-                Debug.Log("NO CONECTADO.");
+
+        }
+        else
+        {
+           textErrorAdminPanel.color = Color.red;
+            textErrorAdminPanel.text = "User not found.";
             resultado.Close();
         }
     }
@@ -65,7 +132,7 @@ public class Login : MonoBehaviour
 
             if (resultado.HasRows)
             {
-                Debug.Log("ya eciste ese usuario.");
+                Debug.Log("ya existe ese usuario.");
                 resultado.Close();
 
             }
@@ -97,5 +164,52 @@ public class Login : MonoBehaviour
             login.SetActive(true);
             register.SetActive(false);
         }
+    }
+
+    public void showHideTimePlayed()
+    {
+        if (login.activeSelf)
+        {
+            login.SetActive(false);
+            timePlayed.SetActive(true);
+            common.SetActive(false);
+
+        }
+        else
+        {
+            clearCommonTextFields();
+            login.SetActive(true);
+            timePlayed.SetActive(false);
+            common.SetActive(true);
+
+        }
+    }
+
+    public void showHideAdminPanel()
+    {
+        if (login.activeSelf)
+        {
+            login.SetActive(false);
+            adminPanel.SetActive(true);
+            common.SetActive(false);
+
+        }
+        else
+        {
+            login.SetActive(true);
+            adminPanel.SetActive(false);
+            common.SetActive(true);
+
+        }
+    }
+
+    public void changeToGameScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void clearCommonTextFields() {
+            passTxt.text = "";
+            usernameTxt.text = "";
     }
 }
