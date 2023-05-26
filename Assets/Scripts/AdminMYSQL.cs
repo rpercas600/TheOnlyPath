@@ -21,6 +21,7 @@ public class AdminMYSQL : MonoBehaviour
         ConnectToDBServer();
     }
 
+    
     void ConnectToDBServer()
     {
         conexion = new MySqlConnection(datosConexion);

@@ -37,9 +37,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -101,13 +98,28 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: Login
+    methodName: changeToGameScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
     methodName: registerNewUser
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
+    methodName: showHideTimePlayed
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
+    methodName: showHideTimePlayed
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
+    methodName: showHideAdminPanel
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: showHideRegister
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: logear
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
+    methodName: searchUser
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: showHideRegister
@@ -835,7 +847,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 9c1ae3eef5a8a95065962ce52505740d
+      Hash: 1174d4f69ac760ea113e609a59f6b820
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Login

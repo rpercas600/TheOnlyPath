@@ -17,14 +17,14 @@ public class Login : MonoBehaviour
     public Text tp1;
     public Text textSuccessFail;
 
-        public Text textErrorAdminPanel;
-        public Text userAdminFoundTxt;
-        public Text passAdminFoundTxt;
-        public Text adminAdminFoundTxt;
-public TMP_InputField searchAdminField;
-        public TMP_InputField userFoundField;
-        public TMP_InputField passFoundField;
-        public TMP_InputField adminFoundField;
+    public Text textErrorAdminPanel;
+    public Text userAdminFoundTxt;
+    public Text passAdminFoundTxt;
+    public Text adminAdminFoundTxt;
+    public TMP_InputField searchAdminField;
+    public TMP_InputField userFoundField;
+    public TMP_InputField passFoundField;
+    public TMP_InputField adminFoundField;
     public GameObject login;
     public GameObject register;
 
@@ -34,15 +34,14 @@ public TMP_InputField searchAdminField;
     public GameObject adminPanel;
 
 
-
     public void logear()
     {
+        
         string log = " WHERE username = '"
         + usernameTxt.text + "' AND password = '"
         + passTxt.text + "';";
 
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
-
         MySqlDataReader resultado = admin.select(log);
 
 
@@ -92,7 +91,8 @@ public TMP_InputField searchAdminField;
         }
     }
 
-    public void searchUser() {
+    public void searchUser()
+    {
         string log = " WHERE username = '"
         + searchAdminField.text + "';";
 
@@ -113,7 +113,7 @@ public TMP_InputField searchAdminField;
         }
         else
         {
-           textErrorAdminPanel.color = Color.red;
+            textErrorAdminPanel.color = Color.red;
             textErrorAdminPanel.text = "User not found.";
             resultado.Close();
         }
@@ -208,8 +208,9 @@ public TMP_InputField searchAdminField;
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void clearCommonTextFields() {
-            passTxt.text = "";
-            usernameTxt.text = "";
+    public void clearCommonTextFields()
+    {
+        passTxt.text = "";
+        usernameTxt.text = "";
     }
 }

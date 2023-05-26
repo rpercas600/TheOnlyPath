@@ -23,6 +23,8 @@
 -a="C:\TheOnlyPath\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll"
 -a="C:\TheOnlyPath\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll"
 -a="C:\TheOnlyPath\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll"
+-a="C:\TheOnlyPath\Assets\dll\I18N.dll"
+-a="C:\TheOnlyPath\Assets\dll\I18N.West.dll"
 -s="C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine"
 -s="C:\TheOnlyPath\Library\PlayerScriptAssemblies"
 -s="C:\TheOnlyPath\Library\PackageCache\com.unity.burst@1.6.6"
