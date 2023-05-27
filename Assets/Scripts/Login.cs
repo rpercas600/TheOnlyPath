@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
+
+    private static string username ;
     public TMP_InputField usernameTxt;
     public TMP_InputField passTxt;
     public TMP_InputField repeatPass;
@@ -34,9 +36,13 @@ public class Login : MonoBehaviour
     public GameObject adminPanel;
 
 
+    public static string getUsername()
+    {
+        return username;
+    }
     public void logear()
     {
-        
+
         string log = " WHERE username = '"
         + usernameTxt.text + "' AND password = '"
         + passTxt.text + "';";
@@ -73,7 +79,7 @@ public class Login : MonoBehaviour
                     //  resultado.Close();
                 }
             }
-
+            username = usernameTxt.text;
         }
         else
         {

@@ -1,15 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using MySql.Data.MySqlClient;
 public class PlayerController : MonoBehaviour
 {
+
+    private float miliseconds;
+    private float seconds;
+    private float minutes;
+    private float hours;
     public Animator anim;
 
     public float moveSpeed;
 
     private Rigidbody2D rb;
 
+    private Time myPlayedTime;
     private float x;
     private float y;
 
@@ -19,11 +25,30 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        transform.position = new Vector2(1, 1);
+
+
     }
     private void Update()
     {
         GetInput();
         Animate();
+        miliseconds += Time.deltaTime;
+        if (miliseconds >= 1.0f)
+        {
+            miliseconds -= 1.0f;
+            seconds++;
+            if (seconds > 59)
+            {
+                seconds = 0;
+                minutes++;
+                 if (minutes > 59)
+            {
+                minutes = 0;
+                hours++;
+            }
+            }
+        }
     }
     private void FixedUpdate()
     {
@@ -40,7 +65,8 @@ public class PlayerController : MonoBehaviour
     }
     private void Animate()
     {
-        if(input.magnitude > 0.1f || input.magnitude < -0.1f)
+        //si se presiona algun botón que controla el movimiento, WASD, flechas, se mueve
+        if (input.magnitude > 0.1f || input.magnitude < -0.1f)
         {
             moving = true;
         }
@@ -49,12 +75,22 @@ public class PlayerController : MonoBehaviour
             moving = false;
         }
 
-        if(moving)
+        if (moving)
         {
             anim.SetFloat("X", x);
             anim.SetFloat("Y", y);
         }
 
         anim.SetBool("Moving", moving);
+    }
+
+
+    private void OnApplicationQuit()
+    {
+        Debug.Log("termina el juego");
+        string log = " SET username = '"+Login.getUsername()+"', playedtime='"+hours+":"+minutes+":"+seconds+"'";
+        Debug.Log(log);
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        MySqlDataReader resultado = admin.updatePlayedTime(log);
     }
 }

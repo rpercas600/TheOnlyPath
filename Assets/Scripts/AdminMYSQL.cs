@@ -49,4 +49,12 @@ public class AdminMYSQL : MonoBehaviour
         MySqlDataReader resultado = cmd.ExecuteReader();
         return resultado;
     }
+
+    public MySqlDataReader updatePlayedTime(string update) {
+
+        string sql = "UPDATE playedtime " + update;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
 }
