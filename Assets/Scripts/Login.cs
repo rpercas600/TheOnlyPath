@@ -147,6 +147,9 @@ public class Login : MonoBehaviour
                 resultado.Close();
                 log = "`account` (`username`, `password`) VALUES ('" + usernameTxt.text + "', '" + passTxt.text + "')";
                 resultado = adminMYSQL.insert(log);
+                resultado.Close();
+                log = "`playedtime` (`username`, `playedtime`) VALUES ('" + usernameTxt.text + "', '00:00:00')";
+                resultado = adminMYSQL.insert(log);
                 Debug.Log("usuario creado correctamente");
                 resultado.Close();
                 showHideRegister();

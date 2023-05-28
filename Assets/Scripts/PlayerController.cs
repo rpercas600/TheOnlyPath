@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
     private void OnApplicationQuit()
     {
         Debug.Log("termina el juego");
-        string log = " SET username = '"+Login.getUsername()+"', playedtime='"+hours+":"+minutes+":"+seconds+"'";
+        string log = " SET username = '"+Login.getUsername()+"', playedtime='"+hours+":"+minutes+":"+seconds+"' WHERE username = '"+Login.getUsername()+"';";
         Debug.Log(log);
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
         MySqlDataReader resultado = admin.updatePlayedTime(log);
