@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class Login : MonoBehaviour
 {
 
-    private static string username ;
+    private static string username;
     public TMP_InputField usernameTxt;
     public TMP_InputField passTxt;
     public TMP_InputField repeatPass;
@@ -88,7 +88,7 @@ public class Login : MonoBehaviour
             //   {
             Debug.Log("NO CONECTADO.");
             textSuccessFail.color = Color.red;
-            textSuccessFail.text = "Error al introducir los datos.";
+            textSuccessFail.text = "Account not found.";
             resultado.Close();
             //    }
             //   else
@@ -114,36 +114,68 @@ public class Login : MonoBehaviour
                 passAdminFoundTxt.text = resultado.GetString(1);
                 adminAdminFoundTxt.text = resultado.GetString(2);
                 resultado.Close();
+                searchAdminField.enabled = false;
             }
 
         }
         else
         {
+            userAdminFoundTxt.text = "";
+            passAdminFoundTxt.text = "";
+            adminAdminFoundTxt.text = "";
             textErrorAdminPanel.color = Color.red;
             textErrorAdminPanel.text = "User not found.";
             resultado.Close();
         }
     }
 
+    public void updateAccount()
+    {
+        if (userFoundField.text == "" || passFoundField.text == ""  || adminFoundField.text == ""){
+        textErrorAdminPanel.color = Color.red;
+        textErrorAdminPanel.text = "Please fill the fields.";
+        } else {
+        string log = " SET username = '" + userFoundField.text + "', password ='"+ passFoundField.text+"', admin='"+ adminFoundField.text +"' WHERE username = '" + searchAdminField.text + "';";
+        Debug.Log(log);
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        MySqlDataReader resultado = admin.updateAccount(log);
+        resultado.Close();
+        textErrorAdminPanel.color = Color.black;
+        textErrorAdminPanel.text = "User modified successfully.";
+        }
+
+        clearAllFields();
+    }
+
+    private void clearAllFields() {
+        userFoundField.text = "";
+        passFoundField.text = "";
+        adminFoundField.text = "";
+        searchAdminField.text = "";
+        searchAdminField.enabled = true;
+    }
     public void registerNewUser()
     {
 
         if (passTxt.text == repeatPass.text)
         {
-            string log = " WHERE username = '" + usernameTxt.text + "' AND password = '"
-        + passTxt.text + "';";
+            string log = " WHERE username = '" + usernameTxt.text + "';";
             AdminMYSQL adminMYSQL = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
 
             MySqlDataReader resultado = adminMYSQL.select(log);
 
             if (resultado.HasRows)
             {
+                textSuccessFail.color = Color.red;
+                textSuccessFail.text = "This account already exists.";
                 Debug.Log("ya existe ese usuario.");
                 resultado.Close();
 
             }
             else
             {
+                textSuccessFail.color = Color.yellow;
+                textSuccessFail.text = "Account created successfully.";
                 resultado.Close();
                 log = "`account` (`username`, `password`) VALUES ('" + usernameTxt.text + "', '" + passTxt.text + "')";
                 resultado = adminMYSQL.insert(log);
@@ -157,6 +189,8 @@ public class Login : MonoBehaviour
         }
         else
         {
+            textSuccessFail.color = Color.red;
+            textSuccessFail.text = "Passwords don't match, try again please.";
             Debug.Log("contraseñas no iguales");
         }
     }

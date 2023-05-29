@@ -57,4 +57,13 @@ public class AdminMYSQL : MonoBehaviour
         MySqlDataReader resultado = cmd.ExecuteReader();
         return resultado;
     }
+
+    public MySqlDataReader updateAccount(string update) {
+
+        string sql = "UPDATE account " + update;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
+
 }
