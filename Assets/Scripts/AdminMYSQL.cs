@@ -50,9 +50,33 @@ public class AdminMYSQL : MonoBehaviour
         return resultado;
     }
 
+    public MySqlDataReader delete(string delete) {
+
+        string sql = "DELETE from account WHERE " + delete;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
+
     public MySqlDataReader updatePlayedTime(string update) {
 
         string sql = "UPDATE playedtime " + update;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
+
+    public MySqlDataReader selectPlayedTime(string select) {
+
+        string sql = "SELECT playedtime FROM playedtime " + select;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
+
+        public MySqlDataReader rankingPlayedTime() {
+
+        string sql = "SELECT * FROM `playedtime` order by playedtime desc limit 3;";
         MySqlCommand cmd = new MySqlCommand(sql, conexion);
         MySqlDataReader resultado = cmd.ExecuteReader();
         return resultado;

@@ -26,11 +26,30 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         transform.position = new Vector2(1, 1);
-
-
+                //cojo los datos de bbdd para ir aumentando el tiempo
+        string log = " WHERE username = '"+Login.getUsername()+"';";
+        Debug.Log(log);
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        
+        
+        MySqlDataReader resultado = admin.selectPlayedTime(log);
+        if (resultado.HasRows)
+        {
+        if (resultado.Read())  //necesario para leer los datos que devuelve
+            {
+                Debug.Log("llega aqui");
+                string stringToFormat = resultado.GetString(0);
+                Debug.Log(stringToFormat);
+            }
+            
+        }
+        
+        //resultado.Close();
     }
+
     private void Update()
     {
+
         GetInput();
         Animate();
         miliseconds += Time.deltaTime;
@@ -92,5 +111,6 @@ public class PlayerController : MonoBehaviour
         Debug.Log(log);
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
         MySqlDataReader resultado = admin.updatePlayedTime(log);
+        resultado.Close();
     }
 }

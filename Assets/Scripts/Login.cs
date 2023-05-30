@@ -17,6 +17,12 @@ public class Login : MonoBehaviour
     public Text user1;
 
     public Text tp1;
+    public Text user2;
+
+    public Text tp2;
+    public Text user3;
+
+    public Text tp3;
     public Text textSuccessFail;
 
     public Text textErrorAdminPanel;
@@ -131,28 +137,77 @@ public class Login : MonoBehaviour
 
     public void updateAccount()
     {
-        if (userFoundField.text == "" || passFoundField.text == ""  || adminFoundField.text == ""){
-        textErrorAdminPanel.color = Color.red;
-        textErrorAdminPanel.text = "Please fill the fields.";
-        } else {
-        string log = " SET username = '" + userFoundField.text + "', password ='"+ passFoundField.text+"', admin='"+ adminFoundField.text +"' WHERE username = '" + searchAdminField.text + "';";
-        Debug.Log(log);
-        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
-        MySqlDataReader resultado = admin.updateAccount(log);
-        resultado.Close();
-        textErrorAdminPanel.color = Color.black;
-        textErrorAdminPanel.text = "User modified successfully.";
+        if (userFoundField.text == "" || passFoundField.text == "" || adminFoundField.text == "")
+        {
+            textErrorAdminPanel.color = Color.red;
+            textErrorAdminPanel.text = "Please fill the fields.";
+        }
+        else
+        {
+            string log = " SET username = '" + userFoundField.text + "', password ='" + passFoundField.text + "', admin='" + adminFoundField.text + "' WHERE username = '" + searchAdminField.text + "';";
+            Debug.Log(log);
+            AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+            MySqlDataReader resultado = admin.updateAccount(log);
+            resultado.Close();
+            textErrorAdminPanel.color = Color.black;
+            textErrorAdminPanel.text = "User modified successfully.";
         }
 
         clearAllFields();
     }
 
-    private void clearAllFields() {
+    public void deleteAccount()
+    {
+        string log = "username = '"+searchAdminField.text +"';";
+            Debug.Log(log);
+            AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+            MySqlDataReader resultado = admin.delete(log);
+            textErrorAdminPanel.text = "Account deleted successfully.";
+            clearAllFields();
+    }
+
+    private void clearAllFields()
+    {
         userFoundField.text = "";
         passFoundField.text = "";
         adminFoundField.text = "";
         searchAdminField.text = "";
+        userAdminFoundTxt.text = "";
+        passAdminFoundTxt.text = "";
+        adminAdminFoundTxt.text = "";
         searchAdminField.enabled = true;
+    }
+
+    public void getRanking()
+    {
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        int count = 0;
+        MySqlDataReader resultado = admin.rankingPlayedTime();
+        if (resultado.HasRows)
+        {
+            while (resultado.Read())  //necesario para leer los datos que devuelve
+            {
+
+                switch (count)
+                {
+                    case 0:
+                        user1.text = resultado.GetString(0);
+                        tp1.text = resultado.GetString(1);
+                        break;
+                    case 1:
+                        user2.text = resultado.GetString(0);
+                        tp2.text = resultado.GetString(1);
+                        break;
+                    case 2:
+                        user3.text = resultado.GetString(0);
+                        tp3.text = resultado.GetString(1);
+                        break;
+                }
+                count++;
+            }
+
+        }
+        resultado.Close();
     }
     public void registerNewUser()
     {
@@ -213,6 +268,7 @@ public class Login : MonoBehaviour
     {
         if (login.activeSelf)
         {
+            getRanking();
             login.SetActive(false);
             timePlayed.SetActive(true);
             common.SetActive(false);
