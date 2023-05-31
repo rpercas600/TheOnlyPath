@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: '%attack-lou1_0'
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 324
+        width: 98
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138ceb266ec7db4bb7fe2bfc3140b02
+      internalID: -1347682909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_1'
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 325
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a03afcdd34cbaf4b9ab10a33e4179a7
+      internalID: -1412255700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_2'
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 325
+        width: 131
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a706d3237599942b92c4b7220185e4
+      internalID: 2053637150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_3'
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 328
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef88a17b1ae1e642bd3c7d088912c1b
+      internalID: 202304212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_4'
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 329
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99475ac0cb5ac374e96c3c317facbe3e
+      internalID: -1358591224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_5'
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 325
+        width: 117
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6488752cf1b64e8440d2ea4b82dac
+      internalID: -791739809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_6'
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 324
+        width: 128
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d061ca30f033b41a9cad6a8e2a47ef
+      internalID: 1710582422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_7'
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 327
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743d80aef80bad342ba0ea9764ab99b8
+      internalID: 1314203128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_8'
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 325
+        width: 124
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdd198cfeae3404c820b7d09a626b18
+      internalID: 1978730498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_9'
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 325
+        width: 126
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cbca8a1b49d0c4c95716495b27fc1f
+      internalID: -1709019621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_10'
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 162
+        width: 123
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7387d06a4c1bdf44a3995773b96cda0
+      internalID: -1812139166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_11'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 162
+        width: 120
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ceab605512884b4e920e49afc9f6eb2
+      internalID: 93889462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_12'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 162
+        width: 120
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ea9761c7ba43341a5d772f3dcb2741
+      internalID: 2078922320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_13'
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 162
+        width: 126
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d0b5e79e01884eb4207dc71ae4785
+      internalID: 561323986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_14'
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 162
+        width: 133
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82212f18a271a4e44ab6de3e06c243f9
+      internalID: -792893722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_15'
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 162
+        width: 125
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8512fc7d98cdf046a236163d0986e9f
+      internalID: -233256900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_16'
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 162
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6b000a8e1cdc48ac6bbef1080be5d
+      internalID: 1348425117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_17'
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 162
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5497ece01bbd29f43afcd42183c2b540
+      internalID: 2053930127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_18'
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 162
+        width: 135
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ce774f34cbee24baf6c549bc1290fe
+      internalID: -731100230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_19'
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 162
+        width: 135
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6154fa9d50ae074fa30ab6f31e9fe55
+      internalID: 1756924070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_20'
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 162
+        width: 97
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be023b9680ef3c8499a3a0dfd14e9492
+      internalID: -365129817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_21'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 119
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81037200db47444ebb7fc79d9158243
+      internalID: 565318722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_22'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 122
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0fc5e1df133ca49b50aea908d77934
+      internalID: 910479801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_23'
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 126
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c878dfd1b0ce41aa04d0daa71bee8
+      internalID: 1805539144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_24'
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 122
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eeb78c7dc576448a9431367df4eb17
+      internalID: -1651676972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_25'
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 97
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d997aad430812741b941225ca303d09
+      internalID: 1052644216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_26'
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 97
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70d7e0d0d5135d40824c3ab597f6923
+      internalID: -1918794158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_27'
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 0
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d8ca7a6fc18074dacb3d63ad54139f
+      internalID: -1040683220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_28'
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 0
+        width: 129
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8f7c638b6a4514c825e0c6af155943
+      internalID: -1356069736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_29'
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 0
+        width: 132
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c4488811ea074d89a5e9e56f88f45
+      internalID: 721022411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_30'
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 126
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c97d9431b7c02488c7d8e75fea5e2b
+      internalID: 298712329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '%attack-lou1_31'
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 0
+        width: 98
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ae0d7be128b5468ba1bb5d8375565
+      internalID: 1948892716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +798,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '%attack-lou1_0': -1347682909
+      '%attack-lou1_1': -1412255700
+      '%attack-lou1_10': -1812139166
+      '%attack-lou1_11': 93889462
+      '%attack-lou1_12': 2078922320
+      '%attack-lou1_13': 561323986
+      '%attack-lou1_14': -792893722
+      '%attack-lou1_15': -233256900
+      '%attack-lou1_16': 1348425117
+      '%attack-lou1_17': 2053930127
+      '%attack-lou1_18': -731100230
+      '%attack-lou1_19': 1756924070
+      '%attack-lou1_2': 2053637150
+      '%attack-lou1_20': -365129817
+      '%attack-lou1_21': 565318722
+      '%attack-lou1_22': 910479801
+      '%attack-lou1_23': 1805539144
+      '%attack-lou1_24': -1651676972
+      '%attack-lou1_25': 1052644216
+      '%attack-lou1_26': -1918794158
+      '%attack-lou1_27': -1040683220
+      '%attack-lou1_28': -1356069736
+      '%attack-lou1_29': 721022411
+      '%attack-lou1_3': 202304212
+      '%attack-lou1_30': 298712329
+      '%attack-lou1_31': 1948892716
+      '%attack-lou1_4': -1358591224
+      '%attack-lou1_5': -791739809
+      '%attack-lou1_6': 1710582422
+      '%attack-lou1_7': 1314203128
+      '%attack-lou1_8': 1978730498
+      '%attack-lou1_9': -1709019621
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

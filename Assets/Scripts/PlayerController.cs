@@ -22,28 +22,34 @@ public class PlayerController : MonoBehaviour
     private Vector2 input;
     private bool moving;
 
+    private float attackTime = 0.25f;
+
+    private float attackCounter = 0.25f;
+
+    private bool isAttacking;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         transform.position = new Vector2(1, 1);
-                //cojo los datos de bbdd para ir aumentando el tiempo
-        string log = " WHERE username = '"+Login.getUsername()+"';";
+        //cojo los datos de bbdd para ir aumentando el tiempo
+        string log = " WHERE username = '" + Login.getUsername() + "';";
         Debug.Log(log);
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
-        
-        
+
+
         MySqlDataReader resultado = admin.selectPlayedTime(log);
         if (resultado.HasRows)
         {
-        if (resultado.Read())  //necesario para leer los datos que devuelve
+            if (resultado.Read())  //necesario para leer los datos que devuelve
             {
                 Debug.Log("llega aqui");
                 string stringToFormat = resultado.GetString(0);
                 Debug.Log(stringToFormat);
             }
-            
+
         }
-        
+
         //resultado.Close();
     }
 
@@ -61,11 +67,11 @@ public class PlayerController : MonoBehaviour
             {
                 seconds = 0;
                 minutes++;
-                 if (minutes > 59)
-            {
-                minutes = 0;
-                hours++;
-            }
+                if (minutes > 59)
+                {
+                    minutes = 0;
+                    hours++;
+                }
             }
         }
     }
@@ -100,6 +106,21 @@ public class PlayerController : MonoBehaviour
             anim.SetFloat("Y", y);
         }
 
+        if (isAttacking)
+        {
+            attackCounter -= Time.deltaTime;
+            if (attackCounter <= 0){
+                anim.SetBool("isAttacking", false);
+                isAttacking = false;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            attackCounter = attackTime;
+            anim.SetBool("isAttacking", true);
+            isAttacking = true;
+        }
         anim.SetBool("Moving", moving);
     }
 
@@ -107,7 +128,7 @@ public class PlayerController : MonoBehaviour
     private void OnApplicationQuit()
     {
         Debug.Log("termina el juego");
-        string log = " SET username = '"+Login.getUsername()+"', playedtime='"+hours+":"+minutes+":"+seconds+"' WHERE username = '"+Login.getUsername()+"';";
+        string log = " SET username = '" + Login.getUsername() + "', playedtime='" + hours + ":" + minutes + ":" + seconds + "' WHERE username = '" + Login.getUsername() + "';";
         Debug.Log(log);
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
         MySqlDataReader resultado = admin.updatePlayedTime(log);
