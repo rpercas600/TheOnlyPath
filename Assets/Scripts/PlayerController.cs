@@ -32,25 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         transform.position = new Vector2(1, 1);
-        //cojo los datos de bbdd para ir aumentando el tiempo
-        string log = " WHERE username = '" + Login.getUsername() + "';";
-        Debug.Log(log);
-        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
 
-
-        MySqlDataReader resultado = admin.selectPlayedTime(log);
-        if (resultado.HasRows)
-        {
-            if (resultado.Read())  //necesario para leer los datos que devuelve
-            {
-                Debug.Log("llega aqui");
-                string stringToFormat = resultado.GetString(0);
-                Debug.Log(stringToFormat);
-            }
-
-        }
-
-        //resultado.Close();
     }
 
     private void Update()
@@ -109,7 +91,8 @@ public class PlayerController : MonoBehaviour
         if (isAttacking)
         {
             attackCounter -= Time.deltaTime;
-            if (attackCounter <= 0){
+            if (attackCounter <= 0)
+            {
                 anim.SetBool("isAttacking", false);
                 isAttacking = false;
             }
@@ -127,11 +110,52 @@ public class PlayerController : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        Debug.Log("termina el juego");
-        string log = " SET username = '" + Login.getUsername() + "', playedtime='" + hours + ":" + minutes + ":" + seconds + "' WHERE username = '" + Login.getUsername() + "';";
+        //cojo los datos de bbdd para ir aumentando el tiempo
+        string log = " WHERE username = '" + Login.getUsername() + "';";
         Debug.Log(log);
         AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
-        MySqlDataReader resultado = admin.updatePlayedTime(log);
+
+
+        MySqlDataReader resultado = admin.selectPlayedTime(log);
+        if (resultado.HasRows)
+        {
+            if (resultado.Read())  //necesario para leer los datos que devuelve
+            {
+                Debug.Log("llega aqui");
+                string stringToFormat = resultado.GetString(0);
+                string[] formattedString = stringToFormat.Split(":");
+                hours += float.Parse(formattedString[0]);
+                minutes += float.Parse(formattedString[1]);
+                seconds += float.Parse(formattedString[2]);
+                Debug.Log("formatted string" + formattedString);
+            }
+
+        }
+
         resultado.Close();
+
+       miliseconds += Time.deltaTime;
+        if (miliseconds >= 1.0f)
+        {
+            miliseconds -= 1.0f;
+            seconds++;
+            if (seconds > 59)
+            {
+                seconds = 0;
+                minutes++;
+                if (minutes > 59)
+                {
+                    minutes = 0;
+                    hours++;
+                }
+            }
+        }
+
+        Debug.Log("termina el juego");
+        string log1 = " SET username = '" + Login.getUsername() + "', playedtime='" + hours + ":" + minutes + ":" + seconds + "' WHERE username = '" + Login.getUsername() + "';";
+        Debug.Log(log1);
+        //AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        MySqlDataReader resultado1 = admin.updatePlayedTime(log1);
+        resultado1.Close();
     }
 }
