@@ -9079,7 +9079,7 @@ MonoBehaviour:
   player: {fileID: 16491300}
   moveSpeed: 3
   homePos: {fileID: 1895024549}
-  maxRange: 5
+  maxRange: 6
   minRange: 1
 --- !u!61 &423430361
 BoxCollider2D:
@@ -9207,8 +9207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d0c2bc7669ff54db98e4063bf1e568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 4
-  maxHP: 4
+  currentHP: 8
+  maxHP: 8
 --- !u!95 &423430366
 Animator:
   serializedVersion: 5
@@ -9568,7 +9568,7 @@ GameObject:
   - component: {fileID: 541176521}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MyWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9946,7 +9946,7 @@ GameObject:
   - component: {fileID: 826580408}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MyWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10524,7 +10524,7 @@ GameObject:
   - component: {fileID: 1093204929}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MyWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10596,7 +10596,7 @@ GameObject:
   - component: {fileID: 1098385817}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: MyWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

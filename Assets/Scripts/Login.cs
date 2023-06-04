@@ -10,6 +10,10 @@ public class Login : MonoBehaviour
 {
 
     private static string username;
+
+    public static string positionX;
+
+    public static string positionY;
     public TMP_InputField usernameTxt;
     public TMP_InputField passTxt;
     public TMP_InputField repeatPass;
@@ -79,6 +83,7 @@ public class Login : MonoBehaviour
                     resultado.Close();
                     textSuccessFail.color = Color.green;
                     textSuccessFail.text = "Conectado correctamente";
+
                     changeToGameScene();
                     //  }
                     //   else
@@ -158,12 +163,12 @@ public class Login : MonoBehaviour
 
     public void deleteAccount()
     {
-        string log = "username = '"+searchAdminField.text +"';";
-            Debug.Log(log);
-            AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
-            MySqlDataReader resultado = admin.delete(log);
-            textErrorAdminPanel.text = "Account deleted successfully.";
-            clearAllFields();
+        string log = "username = '" + searchAdminField.text + "';";
+        Debug.Log(log);
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        MySqlDataReader resultado = admin.delete(log);
+        textErrorAdminPanel.text = "Account deleted successfully.";
+        clearAllFields();
     }
 
     private void clearAllFields()
@@ -237,6 +242,9 @@ public class Login : MonoBehaviour
                 resultado.Close();
                 log = "`playedtime` (`username`, `playedtime`) VALUES ('" + usernameTxt.text + "', '00:00:00')";
                 resultado = adminMYSQL.insert(log);
+                resultado.Close();
+                log = "`position` (`username`, `posX`, `posY`) VALUES ('" + usernameTxt.text + "', 0, 0)";
+                resultado = adminMYSQL.insert(log);
                 Debug.Log("usuario creado correctamente");
                 resultado.Close();
                 showHideRegister();
@@ -304,6 +312,21 @@ public class Login : MonoBehaviour
 
     public void changeToGameScene()
     {
+        string log3 = "'" + usernameTxt.text + "'";
+        AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
+        MySqlDataReader resultado3 = admin.selectFromPosition(log3);
+        if (resultado3.HasRows)
+        {
+            Debug.Log("tiene rows");
+            if (resultado3.Read())  //necesario para leer los datos que devuelve
+            {
+                Debug.Log("consigo la pos");
+                positionX = resultado3.GetString(1);
+                positionY = resultado3.GetString(2);
+
+            }
+        }
+        resultado3.Close();
         SceneManager.LoadScene("SampleScene");
     }
 

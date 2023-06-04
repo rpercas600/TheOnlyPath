@@ -56,4 +56,5 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("isMoving", false);
                     }
     }
+
 }

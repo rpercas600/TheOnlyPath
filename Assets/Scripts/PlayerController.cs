@@ -30,8 +30,9 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
-        transform.position = new Vector2(1, 1);
+        transform.position = new Vector2(int.Parse(Login.positionX), int.Parse(Login.positionY));
 
     }
 
@@ -127,6 +128,16 @@ public class PlayerController : MonoBehaviour
                 hours += float.Parse(formattedString[0]);
                 minutes += float.Parse(formattedString[1]);
                 seconds += float.Parse(formattedString[2]);
+                if (seconds > 59)
+                {
+                    seconds -= 60;
+                    minutes++;
+                    if (minutes > 59)
+                    {
+                        minutes -= 60;
+                        hours++;
+                    }
+                }
                 Debug.Log("formatted string" + formattedString);
             }
 
@@ -134,22 +145,23 @@ public class PlayerController : MonoBehaviour
 
         resultado.Close();
 
-       miliseconds += Time.deltaTime;
+        /*miliseconds += Time.deltaTime;
         if (miliseconds >= 1.0f)
         {
             miliseconds -= 1.0f;
             seconds++;
             if (seconds > 59)
             {
-                seconds = 0;
+                seconds -= 59;
                 minutes++;
                 if (minutes > 59)
                 {
-                    minutes = 0;
+                    minutes -= 59;
                     hours++;
                 }
             }
-        }
+        } 
+        */
 
         Debug.Log("termina el juego");
         string log1 = " SET username = '" + Login.getUsername() + "', playedtime='" + hours + ":" + minutes + ":" + seconds + "' WHERE username = '" + Login.getUsername() + "';";
@@ -157,5 +169,28 @@ public class PlayerController : MonoBehaviour
         //AdminMYSQL admin = GameObject.Find("AdministradorBBDD").GetComponent<AdminMYSQL>();
         MySqlDataReader resultado1 = admin.updatePlayedTime(log1);
         resultado1.Close();
+
+        string log3 = "'" + Login.getUsername() + "'";
+        MySqlDataReader resultado3 = admin.selectFromPosition(log3);
+        if (resultado3.HasRows)
+        {
+            resultado3.Close();
+            string log4 = "SET posX =" + ((int)transform.position.x) + ", posY=" + ((int)transform.position.y) + " WHERE username='" + Login.getUsername() + "';";
+
+            MySqlDataReader resultado4 = admin.updatePosition(log4);
+
+            resultado4.Close();
+        }
+        else
+        {
+            resultado3.Close();
+            string log2 = "`position` (`username`, `posX`, `posY`) VALUES ('" + Login.getUsername() + "', " + ((int)transform.position.x) + ", " + ((int)transform.position.y) + ")";
+
+            MySqlDataReader resultado2 = admin.insert(log2);
+
+            resultado2.Close();
+        }
+
+
     }
 }

@@ -42,6 +42,14 @@ public class AdminMYSQL : MonoBehaviour
         return resultado;
     }
 
+    public MySqlDataReader selectFromPosition(string select) {
+
+        string sql = "SELECT * FROM position WHERE username = "+select;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
+
      public MySqlDataReader insert(string insert) {
 
         string sql = "INSERT INTO " + insert;
@@ -90,4 +98,11 @@ public class AdminMYSQL : MonoBehaviour
         return resultado;
     }
 
+    public MySqlDataReader updatePosition(string update) {
+
+        string sql = "UPDATE position " + update;
+        MySqlCommand cmd = new MySqlCommand(sql, conexion);
+        MySqlDataReader resultado = cmd.ExecuteReader();
+        return resultado;
+    }
 }
