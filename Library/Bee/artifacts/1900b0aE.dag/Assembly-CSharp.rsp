@@ -372,7 +372,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AdminMYSQL.cs"
 "Assets/Scripts/CameraFollow.cs"
-"Assets/Scripts/Enemy1.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/EnemyHealthManager.cs"
 "Assets/Scripts/GridMovement.cs"
 "Assets/Scripts/HurtEnemy.cs"
