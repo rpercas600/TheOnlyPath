@@ -2,7 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AdminMYSQL
-    - Enemy1
+    - CameraFollow
+    - EnemyController
+    - EnemyHealthManager
+    - HurtEnemy
     - Login
     - PlayerController
     Unity.2D.Animation.Editor.dll:
@@ -40,8 +43,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -104,6 +109,9 @@ ScriptsOnlyBuild:
     methodName: registerNewUser
   - assembly: Assembly-CSharp
     fullTypeName: Login
+    methodName: deleteAccount
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
     methodName: showHideTimePlayed
   - assembly: Assembly-CSharp
     fullTypeName: Login
@@ -111,6 +119,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: showHideAdminPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: Login
+    methodName: updateAccount
   - assembly: Assembly-CSharp
     fullTypeName: Login
     methodName: showHideRegister
@@ -150,37 +161,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 1768}
+      Script: {instanceID: 1766}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3018}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4520}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 4542}
     - Class: 114
       Script: {instanceID: 4850}
     - Class: 114
-      Script: {instanceID: 5468}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 5672}
     - Class: 114
-      Script: {instanceID: 5724}
+      Script: {instanceID: 5720}
     - Class: 114
-      Script: {instanceID: 5986}
+      Script: {instanceID: 5984}
     - Class: 114
-      Script: {instanceID: 6340}
+      Script: {instanceID: 6338}
     - Class: 114
-      Script: {instanceID: 6534}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 6682}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 6920}
+      Script: {instanceID: 6916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -212,6 +223,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 74
@@ -231,11 +244,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 690}
     - Class: 114
-      Script: {instanceID: 6626}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 6682}
+      Script: {instanceID: 4738}
     - Class: 114
-      Script: {instanceID: 6880}
+      Script: {instanceID: 5894}
+    - Class: 114
+      Script: {instanceID: 6678}
+    - Class: 114
+      Script: {instanceID: 6876}
+    - Class: 114
+      Script: {instanceID: 8590}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -265,12 +284,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Cainos.PixelArtTopDown_Basic
-    className: TopDownCharacterController
   - hash:
       serializedVersion: 2
       Hash: 61f2059db36c32396c3d12077855592b
@@ -423,12 +436,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 4811501554c1bec6ae7daf21dc3fe0b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Cainos.PixelArtTopDown_Basic
-    className: PropsAltar
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -505,6 +512,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9e0957bc4b58e17db310d763943e9f6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyHealthManager
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -711,6 +724,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
       Hash: 75de60bccbd35c2e82026d4a60733734
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -729,12 +748,6 @@ ScriptsOnlyBuild:
     className: AnimatedTile
   - hash:
       serializedVersion: 2
-      Hash: f521aa63d9ffd972f8971012483a12ff
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Cainos.PixelArtTopDown_Basic
-    className: LayerTrigger
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -751,12 +764,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 5fc6554497fb03f1b68aede7699939dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Cainos.PixelArtTopDown_Basic
-    className: CameraFollow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -849,7 +856,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 1174d4f69ac760ea113e609a59f6b820
+      Hash: 9bacc92b09e5d6894f6a788d14bc5c6f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Login
@@ -865,6 +872,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 99894cedab9fd4050e844e9aedffb993
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -921,12 +934,6 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: d6cdfe0ba10734e90162541e50041205
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Enemy1
-  - hash:
-      serializedVersion: 2
       Hash: 0adef05b9ef59c0d7fd85ec83ef49b27
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -961,12 +968,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 3faa100fa1501fc18c3d7bbd33374379
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Cainos.PixelArtTopDown_Basic
-    className: SpriteColorAnimation
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1183,6 +1184,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: e1db8aedef1a400a08ab272c5141f741
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HurtEnemy
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

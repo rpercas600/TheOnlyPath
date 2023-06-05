@@ -169,6 +169,7 @@ public class Login : MonoBehaviour
         MySqlDataReader resultado = admin.delete(log);
         textErrorAdminPanel.text = "Account deleted successfully.";
         clearAllFields();
+        resultado.Close();
     }
 
     private void clearAllFields()
