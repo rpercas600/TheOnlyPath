@@ -23,6 +23,14 @@ public class HurtEnemy : MonoBehaviour
             EnemyHealthManager eHPManager;
             eHPManager = other.gameObject.GetComponent<EnemyHealthManager>();
             eHPManager.HurtEnemy(dmgToDeal);
+            if(eHPManager.currentHP <= 0) {
+                Debug.Log("se murio");
+                
+            }
+        }
+        if(other.tag == "Statue") {
+            Debug.Log("askdhjasd");
+            Destroy(other.gameObject);
         }
     }
 }

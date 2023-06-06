@@ -11,6 +11,8 @@ public class EnemyHealthManager : MonoBehaviour
     private float flashLength = 0.5f;
     private float flashCounter = 0f;
     private SpriteRenderer enemySprite;
+
+    public GameObject text;
     void Start()
     {
         enemySprite = GetComponent<SpriteRenderer>();
@@ -55,6 +57,8 @@ public class EnemyHealthManager : MonoBehaviour
         flashCounter = flashLength;
         if (currentHP <=0) {
             Destroy(gameObject);
+            GameObject hint = Instantiate(text,new Vector3(-10,0,0), Quaternion.identity);
+            hint.GetComponentInChildren<TextMesh>().text = "Si la salida quieres encontrar el arbol de arriba del banco debes talar.";
         }
     }
 }
