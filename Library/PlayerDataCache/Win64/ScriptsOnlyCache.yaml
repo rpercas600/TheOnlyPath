@@ -2,7 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AdminMYSQL
+    - AltarTrigger
     - CameraFollow
+    - DoorSetActive
     - EnemyController
     - EnemyHealthManager
     - HurtEnemy
@@ -14,11 +16,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
@@ -166,31 +168,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3014}
+      Script: {instanceID: 3016}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 4850}
+      Script: {instanceID: 4854}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5468}
     - Class: 114
-      Script: {instanceID: 5672}
+      Script: {instanceID: 5676}
     - Class: 114
-      Script: {instanceID: 5720}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 5984}
+      Script: {instanceID: 5988}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6536}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6682}
     - Class: 114
-      Script: {instanceID: 6916}
+      Script: {instanceID: 6920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -216,6 +218,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
@@ -238,22 +242,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 690}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 4738}
+      Script: {instanceID: 2880}
     - Class: 114
-      Script: {instanceID: 5894}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 4338}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 8590}
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 6682}
+    - Class: 114
+      Script: {instanceID: 6880}
+    - Class: 114
+      Script: {instanceID: 6920}
+    - Class: 114
+      Script: {instanceID: 8594}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -441,6 +455,12 @@ ScriptsOnlyBuild:
     className: UnityMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c744db285029cf24a2a6b0d2c361c2d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AltarTrigger
+  - hash:
+      serializedVersion: 2
       Hash: ba62abe34655d7e7cd27c0bf1fa1b39d
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
@@ -513,7 +533,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9e0957bc4b58e17db310d763943e9f6f
+      Hash: a7dc64ecaaac15343862ad97d7d1317a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyHealthManager
@@ -655,6 +675,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: 
     className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorSetActive
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
