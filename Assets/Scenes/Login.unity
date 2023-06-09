@@ -4415,7 +4415,7 @@ MonoBehaviour:
   serverName: localhost
   databaseName: TheOnlyPath
   username: root
-  password: 3081
+  password: 
 --- !u!4 &966064018
 Transform:
   m_ObjectHideFlags: 0
